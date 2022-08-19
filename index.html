@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@800&family=Roboto&display=swap" rel="stylesheet">
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    brown: '#AF9A69',
+                  }
+                }
+              }
+            }
+          </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Montserrat";
+        }
+        button{
+            font-family: Roboto ;
+        }
+        .overlay1{
+            background: transparent linear-gradient(180deg, #00000000 0%, #000000 51%, #00000000 100%) 0% 0% no-repeat padding-box;
+            opacity: 1;
+        }
+        .raleway{
+            font-family: Raleway!important;
+        } 
+    </style>
+</head>
+
+<body>
+    <section class="min-h-[100vh] relative flex items-center">
+        <div class="w-full h-full absolute top-0 left-0">
+            <img class='object-cover w-full h-full'
+                src="https://cdn.shopify.com/s/files/1/0551/5886/6107/files/1hero.jpg?v=1660562408&width=1500" alt="">
+        </div>
+       
+        <span class="overlay1 absolute bottom-[-124px] h-[262px] z-[55] w-full">
+
+        </span>
+        <div class="text-white 2xl:px-[108px] xl:px-[60px] lg:px-[40px] px-[30px] relative">
+            <span
+                class="lg:text-[36px]  lg:leading-[44px] font-extrabold text-[28px] leading-[34px] relative before:content-[''] before:absolute before:w-[80px] lg:before:w-[130px] before:h-[4px] before:bg-white before:bottom-[-24px] before:left-0 ">
+                SLUIT AAN BY DIE
+            </span>
+            <h1 class="2xl:text-[94px] mt-[32px] xl:text-[64px] lg:text-[54px] md:text-[38px] 2xl:leading-[96px] xl:leading-[66px] lg:leading-[56px] md:leading-[40px]  font-extrabold  text-brown ">
+                Buffelstoor <br> Broederskap
+            </h1>
+            <p class="text-[27px] leading-[33px] mt-4"> 
+                <span class="font-bold">Word ’n lid </span> en kry een <span class="font-bold">Baard-Olie</span> en <br> een <span class="font-bold">Buffelsfontein Brandewyn</span>  <br> elke maand met gratis aflevering <br> vir slegs <span class="font-bold">R349 p/m.</span>
+            </p>
+            <p class="text-[27px] leading-[33px] mt-8 font-bold"> 
+                Lede kry ook 5% afslag <br>  op alle buffelstoor produkte.
+            </p>
+            <button class="w-[217px] h-[55px] bg-[#87764E] mt-[30px] text-[24px]">
+                SLUIT AAN
+            </button>
+        </div>
+
+    </section>
+    <section class="min-h-[100vh] relative flex items-center justify-end">
+        <div class="w-full h-full absolute top-0 left-0">
+            <img class='transform scale-x-[-1] object-cover w-full h-full'
+                src="https://cdn.shopify.com/s/files/1/0551/5886/6107/files/1hero.jpg?v=1660562408&width=1500" alt="">
+        </div>
+        <div class="text-white 2xl:mr-[320px] xl:mr-[260px] lg:mr-[240px] mr-[50px] relative max-w-[625px]">
+            <h4 class="text-[40px] leading-[49px] font-extrabold">BUFFELSTOOR BRODERSKAP LITMAATSKAP PAKKIE</h4>
+            <p class="mt-[20px] text-[#F8F8F8] text-[20px] leading-[30px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget porttitor arcu. Sed feugiat dignissim eros quis eleifend. Praesent eget felis vitae nibh varius dictum. Quisque congue enim arcu, quis fermentum erat egestas a. Sed vel molestie augue. Proin rhoncus nisl in arcu aliquam, eu finibus diam euismod. Quisque iaculis leo in
+            </p>
+            <form  class="mt-[32px] flex flex-wrap gap-y-[8px] justify-between text-[14px]">
+                <input class="w-[48.5%] bg-[#87764E] text-[#ffffff80]    px-[18px] py-[12px]" placeholder="Jou Naam"/>
+                <input class="w-[48.5%] bg-[#87764E] text-[#ffffff80]    px-[18px] py-[12px]" placeholder="Jou Van"/>
+                <input class="w-[48.5%] bg-[#87764E] text-[#ffffff80]    px-[18px] py-[12px]" placeholder="Jou Nommer"/>
+                <input class="w-[48.5%] bg-[#87764E] text-[#ffffff80]    px-[18px] py-[12px]" placeholder="Jou E-Pos"/>
+            </form>
+            <div class="flex justify-between mt-[22px]">
+                <span class="text-white text-[40px] leading-[49px] font-extrabold"> 
+                    R349 p/m
+                </span>
+                <button class="bg-[#9F152D] text-white h-[55px] w-[217px] text-[24px] ">
+                    SLUIT AAN
+                </button>
+            </div>
+        </div>
+        <span class=" bg-[#87764E] sidebar flex flex-col justify-center absolute w-[134px] h-full gap-y-[80px] ">
+            <div class="flex flex-col items-center text-center gap-y-[10px] text-white text-extrabold text-[12px] leading-[14px]">
+                <img class="w-[54px]" src="./1.png" alt="">
+                <span class="raleway">
+                    KRY <br>
+                     MAANDLIKS
+                </span>
+            </div>
+            <div class="flex flex-col items-center text-center gap-y-[10px] text-white text-extrabold text-[12px] leading-[14px]">
+                <img class="w-[54px]" src="./2.png" alt="">
+                <span class="raleway">
+                    KRY 5% <br> AFSLAG OP <br> ALLE PRODUKTE
+                </span>
+            </div>
+            <div class="flex flex-col items-center text-center gap-y-[10px] text-white text-extrabold text-[12px] leading-[14px]">
+                <img class="w-[54px]" src="./3.png" alt="">
+                <span class="raleway">
+                    KRY GRATIS  <br> AFLEWERING
+                </span>
+            </div>
+        </span>
+    </section>
+</body>
+
+</html>
